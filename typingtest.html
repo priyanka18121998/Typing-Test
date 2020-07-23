@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing Test</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+		body{
+			text-align: center;
+			margin-top: 10px;
+			background-image: url(sky.jpg);
+			background-size:cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			height: 100vh;
+
+		}
+	
+		body textarea,body p{
+			background-color: black;
+             opacity: .7;
+             color: white;
+             width:60%;
+             height: 200px;
+             border:0.1px black solid;
+             padding: 10px;
+
+		}
+
+		body p,textarea,button{
+             display: block;
+             margin: 10px;
+       
+		}
+        body div{
+
+        	
+        	margin-left: 300px;
+
+        }
+
+        
+        
+        #h6{
+        	padding: 10px;
+        	margin-top: 10px;
+        	background-color: white;
+             opacity: .8;
+             color: darkviolet;
+             width: 50%;
+        }
+
+	</style>
+</head>
+<body>
+	<h2>Give the typing test here.</h2>
+	<h5>All the best!</h5>
+	<div >
+	<p id="given-text"></p>
+	<textarea placeholder="Write the above paragraph here." id="real-text"></textarea>
+	<button onclick="types()" class="btn btn-warning">Submit</button>
+	<h4 id="h6"></h4>
+	</div>
+
+	
+	<script type="text/javascript" src="typelogin.js"></script>
+	
+
+</body>
+</html>

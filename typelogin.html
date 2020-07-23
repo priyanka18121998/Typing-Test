@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>typing test!</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+		body{
+			background-image: url(back.jpg);
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 100vh;
+			text-align: center;
+			
+			
+		}
+		form div{
+			padding: 10px;
+		}
+		form input{
+			border-radius: 5px;
+		}
+		form label{
+			display: inline-block;
+			width: 100px;
+		}
+		.form{
+			margin-top: 100px;
+			margin-left: 350px;
+			background-color: black;
+			opacity: .7;
+			width: 50%;
+			padding: 20px;
+		}
+		.form h2,.form h4,.form label{
+			color: white;
+		}
+
+	</style>
+</head>
+<body id="body">
+	<div class="form">
+	<h2>Please enter the credentials to get tested.</h2>
+	<h4>Thank you!</h4>
+
+	<form id="form">
+		<div>
+		<label>Username</label>
+		<input type="text" name="username" id="user" placeholder="Username">
+		</div>
+		<div>
+		<label>Password</label>
+		<input type="text" name="password" id="pass" placeholder="Password">
+		</div>
+		<div>
+		<button type="button" class="btn btn-success" onclick="run()">Submit</button>
+		</div>
+	</form>
+	</div>
+	<script type="text/javascript" src="typelogin.js"></script>
+</body>
+</html>
